@@ -4,13 +4,13 @@ export const portfolioData = {
   personal: {
     name: "Alfaz Hossain",
     title: "Cybersecurity Expert | Ethical Hacker | Red Team Specialist",
-    email: "ashikahmedgd007@gmail.com",
+    email: "teamalfasec@gmail.com",
     phone: "+1 (555) 123-4567",
     location: "Noakhali, Bangladesh",
     skype: "askiceman9",
     languages: ["English", "Bengali", "Hindi"],
     availability: "Available for freelance & full-time opportunities",
-    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    photo: "https://e.top4top.io/p_35462k47t1.jpg",
     socialLinks: {
       linkedin: "https://linkedin.com/in/alfaz-hossain",
       github: "https://github.com/alfaz-hossain",
