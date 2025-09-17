@@ -174,7 +174,6 @@ export const portfolioData = {
     seeMore: true,
   },
 ];
-};
 
 // Contact form submission handler (mock)
 export const submitContactForm = async (formData) => {
