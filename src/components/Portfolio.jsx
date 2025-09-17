@@ -285,20 +285,22 @@ const Portfolio = () => {
           <p className="project-impact">{project.impact}</p>
 
           {/* 🔹 See More button */}
-          <a 
-            href={project.github} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="inline-block mt-3 bg-alfaz hover:bg-alfaz/80 text-black font-semibold px-4 py-2 rounded transition"
-          >
-            See More
-          </a>
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-3 bg-alfaz hover:bg-alfaz/80 text-black font-semibold px-4 py-2 rounded transition"
+            >
+              See More
+            </a>
+          )}
         </div>
       ))}
     </div>
   </div>
 </section>
-
+      
       {/* Certifications Section */}
 <section id="certifications" className="section">
   <div className="section-content">
