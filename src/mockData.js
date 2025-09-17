@@ -87,35 +87,50 @@ export const portfolioData = {
 ],
   
   certifications: [
-    {
-      name: "Certified Ethical Hacker (CEH)",
-      issuer: "EC-Council",
-      year: "2023",
-      credentialId: "ECC-CEH-2023-12345",
-      image: "https://ashikahmed007.github.io/cv/images/cap.png"
-    },
-    {
-      name: "Offensive Security Certified Professional (OSCP)",
-      issuer: "Offensive Security",
-      year: "2022",
-      credentialId: "OS-OSCP-2022-67890",
-      image: "/certifications/oscp.jpg"
-    },
-    {
-      name: "Certified Information Systems Security Professional (CISSP)",
-      issuer: "(ISC)²",
-      year: "2023",
-      credentialId: "ISC2-CISSP-2023-11111",
-      image: "/certifications/cissp.jpg"
-    },
-    {
-      name: "GIAC Penetration Tester (GPEN)",
-      issuer: "SANS Institute",
-      year: "2022",
-      credentialId: "GIAC-GPEN-2022-22222",
-      image: "/certifications/gpen.jpg"
-    }
-  ]
+  {
+    name: "Certified Ethical Hacker (CEH)",
+    issuer: "EC-Council",
+    year: "2023",
+    credentialId: "ECC-CEH-2023-12345",
+    image: "https://ashikahmed007.github.io/cv/images/cap.png"
+  },
+  {
+    name: "Offensive Security Certified Professional (OSCP)",
+    issuer: "Offensive Security",
+    year: "2022",
+    credentialId: "OS-OSCP-2022-67890",
+    image: "/certifications/oscp.jpg"
+  },
+  {
+    name: "Certified Information Systems Security Professional (CISSP)",
+    issuer: "(ISC)²",
+    year: "2023",
+    credentialId: "ISC2-CISSP-2023-11111",
+    image: "/certifications/cissp.jpg"
+  },
+  {
+    name: "GIAC Penetration Tester (GPEN)",
+    issuer: "SANS Institute",
+    year: "2022",
+    credentialId: "GIAC-GPEN-2022-22222",
+    image: "/certifications/gpen.jpg"
+  },
+  {
+    name: "CompTIA Security+",
+    issuer: "CompTIA",
+    year: "2021",
+    credentialId: "CompTIA-SY0-601-33333",
+    image: "/certifications/securityplus.jpg"
+  },
+  {
+    name: "See More Certifications",
+    issuer: "Click to view all",
+    year: "—",
+    credentialId: "more",
+    image: "/certifications/more.jpg", 
+    seeMore: true   // <-- special flag
+  }
+]
 };
 
 // Contact form submission handler (mock)
