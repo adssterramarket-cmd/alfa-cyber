@@ -266,28 +266,38 @@ const Portfolio = () => {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="section">
-        <div className="section-content">
-          <div className="section-header">
-            <Shield className="section-icon" />
-            <h2 className="section-title">Projects</h2>
-          </div>
-          <div className="projects-grid">
-            {portfolioData.projects.map((project, index) => (
-              <div key={index} className="project-card">
-                <h3 className="project-title">{project.title}</h3>
-                <p className="project-description">{project.description}</p>
-                <div className="project-technologies">
-                  {project.technologies.map((tech, techIndex) => (
-                    <span key={techIndex} className="project-tech">{tech}</span>
-                  ))}
-                </div>
-                <p className="project-impact">{project.impact}</p>
-              </div>
+<section id="projects" className="section">
+  <div className="section-content">
+    <div className="section-header">
+      <Shield className="section-icon" />
+      <h2 className="section-title">Projects</h2>
+    </div>
+    <div className="projects-grid">
+      {portfolioData.projects.map((project, index) => (
+        <div key={index} className="project-card">
+          <h3 className="project-title">{project.title}</h3>
+          <p className="project-description">{project.description}</p>
+          <div className="project-technologies">
+            {project.technologies.map((tech, techIndex) => (
+              <span key={techIndex} className="project-tech">{tech}</span>
             ))}
           </div>
+          <p className="project-impact">{project.impact}</p>
+
+          {/* 🔹 See More button */}
+          <a 
+            href={project.github} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-block mt-3 bg-alfaz hover:bg-alfaz/80 text-black font-semibold px-4 py-2 rounded transition"
+          >
+            See More
+          </a>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Certifications Section */}
 <section id="certifications" className="section">
@@ -310,7 +320,7 @@ const Portfolio = () => {
           {/* See More Button with Popup */}
           <Dialog>
             <DialogTrigger asChild>
-              <button className="see-more-btn mt-2 px-3 py-1 bg-blue-600 text-white text-sm rounded hover:bg-blue-700">
+              <button className="see-more-btn mt-2 px-3 py-1 bg-blue-400 text-white text-sm rounded hover:bg-blue-700">
                 See More
               </button>
             </DialogTrigger>
