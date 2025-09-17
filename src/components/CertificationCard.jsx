@@ -11,8 +11,8 @@ const CertificationCard = ({ cert }) => {
       <p className="text-xs text-gray-400">ID: {cert.credentialId}</p>
 
       <button
-        onClick={() => setOpen(true)}
-        className="mt-2 px-3 py-1 bg-teal-400 text-white text-sm rounded hover:bg-blue-700"
+        className="see-more-btn mt-2 px-3 py-1 text-white text-sm rounded"
+        style={{ backgroundColor: "rgb(0, 255, 209)" }}
       >
         See More
       </button>
