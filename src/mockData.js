@@ -33,12 +33,7 @@ export const portfolioData = {
     },
     {
       category: "Vulnerability Assessment",
-      items: [
-        "OWASP Top 10",
-        "CVE Analysis",
-        "Risk Assessment",
-        "Security Auditing"
-      ]
+      items: ["OWASP Top 10", "CVE Analysis", "Risk Assessment", "Security Auditing"]
     },
     {
       category: "Red Team Operations",
@@ -51,12 +46,7 @@ export const portfolioData = {
     },
     {
       category: "Forensics & Analysis",
-      items: [
-        "Digital Forensics",
-        "Malware Analysis",
-        "Incident Response",
-        "Log Analysis"
-      ]
+      items: ["Digital Forensics", "Malware Analysis", "Incident Response", "Log Analysis"]
     }
   ],
 
@@ -138,42 +128,43 @@ export const portfolioData = {
     }
   ],
 
-  export const certifications = [
-  {
-    name: "Certified Ethical Hacker (CEH)",
-    issuer: "EC-Council",
-    year: "2023",
-    icon: "🛡️",
-  },
-  {
-    name: "Cisco Certified CyberOps Associate",
-    issuer: "Cisco",
-    year: "2024",
-    icon: "🔒",
-  },
-  {
-    name: "CompTIA Security+",
-    issuer: "CompTIA",
-    year: "2022",
-    icon: "📜",
-  },
-  {
-    name: "AWS Certified Security – Specialty",
-    issuer: "Amazon Web Services",
-    year: "2024",
-    icon: "☁️",
-  },
-  {
-    name: "ISO/IEC 27001 Lead Implementer",
-    issuer: "PECB",
-    year: "2024",
-    icon: "✅",
-  },
-  {
-    name: "More Certifications",
-    seeMore: true,
-  },
-];
+  certifications: [
+    {
+      name: "Certified Ethical Hacker (CEH)",
+      issuer: "EC-Council",
+      year: "2023",
+      icon: "🛡️"
+    },
+    {
+      name: "Cisco Certified CyberOps Associate",
+      issuer: "Cisco",
+      year: "2024",
+      icon: "🔒"
+    },
+    {
+      name: "CompTIA Security+",
+      issuer: "CompTIA",
+      year: "2022",
+      icon: "📜"
+    },
+    {
+      name: "AWS Certified Security – Specialty",
+      issuer: "Amazon Web Services",
+      year: "2024",
+      icon: "☁️"
+    },
+    {
+      name: "ISO/IEC 27001 Lead Implementer",
+      issuer: "PECB",
+      year: "2024",
+      icon: "✅"
+    },
+    {
+      name: "More Certifications",
+      seeMore: true
+    }
+  ]
+};
 
 // Contact form submission handler (mock)
 export const submitContactForm = async (formData) => {
