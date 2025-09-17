@@ -290,7 +290,8 @@ const Portfolio = () => {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-3 bg-alfaz hover:bg-alfaz/80 text-black font-semibold px-4 py-2 rounded transition"
+              className="inline-block mt-3 px-4 py-2 rounded font-semibold transition"
+              style={{ backgroundColor: "#00ffd1", color: "#000" }}
             >
               See More
             </a>
