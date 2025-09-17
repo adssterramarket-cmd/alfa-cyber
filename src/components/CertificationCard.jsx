@@ -10,13 +10,9 @@ const CertificationCard = ({ cert }) => {
       <p className="text-sm text-gray-500">{cert.year}</p>
       <p className="text-xs text-gray-400">ID: {cert.credentialId}</p>
 
-      <button
-        className="see-more-btn mt-2 px-3 py-1 text-white text-sm rounded"
-        style={{ backgroundColor: "rgb(0, 255, 209)" }}
-      >
+      <button className="bg-alfaz hover:bg-alfaz/80 text-black font-semibold px-4 py-2 rounded">
         See More
       </button>
-
       {open && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg relative max-w-md">
