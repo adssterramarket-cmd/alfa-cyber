@@ -845,8 +845,9 @@ body {
     gap: 20px;
     text-align: center;
   }
-  .see-more-btn {
-  transition: background 0.2s ease-in-out;
-}
+  .see-more-btn:hover {
+    background-color: #00c4a7; 
+  }
+
 
 }
