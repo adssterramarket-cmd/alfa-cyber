@@ -12,7 +12,7 @@ const CertificationCard = ({ cert }) => {
 
       <button
         onClick={() => setOpen(true)}
-        className="mt-2 px-3 py-1 bg-blue-600 text-white text-sm rounded hover:bg-blue-700"
+        className="mt-2 px-3 py-1 bg-teal-400 text-white text-sm rounded hover:bg-blue-700"
       >
         See More
       </button>
