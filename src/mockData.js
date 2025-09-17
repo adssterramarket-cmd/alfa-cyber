@@ -88,7 +88,7 @@ export const portfolioData = {
       issuer: "EC-Council",
       year: "2023",
       credentialId: "ECC-CEH-2023-12345",
-      image: "/certifications/ceh.jpg"
+      image: "https://ashikahmed007.github.io/cv/images/cap.png"
     },
     {
       name: "Offensive Security Certified Professional (OSCP)",
