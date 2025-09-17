@@ -845,4 +845,8 @@ body {
     gap: 20px;
     text-align: center;
   }
+  .see-more-btn {
+  transition: background 0.2s ease-in-out;
+}
+
 }
