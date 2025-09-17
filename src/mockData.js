@@ -56,35 +56,35 @@ export const portfolioData = {
   ],
   
   projects: [
-    {
-      title: "Enterprise Network Penetration Testing",
-      description: "Conducted comprehensive penetration testing for a multinational corporation, identifying 15+ critical vulnerabilities and providing detailed remediation strategies.",
-      technologies: ["Metasploit", "Nmap", "Burp Suite", "Python"],
-      impact: "Prevented potential $2M+ in security breaches"
-      github: "https://github.com/alfaz404/portfolio"
-    },
-    {
-      title: "Web Application Security Assessment",
-      description: "Performed security testing on critical web applications, discovering SQL injection and XSS vulnerabilities affecting 50,000+ users.",
-      technologies: ["OWASP ZAP", "Burp Suite", "JavaScript", "SQL"],
-      impact: "Enhanced security for 50,000+ active users"
-      github: "https://github.com/alfaz404/portfolio"
-    },
-    {
-      title: "Red Team Simulation Exercise",
-      description: "Led a full-scale red team exercise simulating advanced persistent threats, testing organization's detection and response capabilities.",
-      technologies: ["Cobalt Strike", "PowerShell", "Kali Linux", "Social Engineering"],
-      impact: "Improved incident response time by 60%"
-      github: "https://github.com/alfaz404/portfolio"
-    },
-    {
-      title: "Cloud Security Architecture Review",
-      description: "Assessed cloud infrastructure security posture and implemented comprehensive security controls and monitoring solutions.",
-      technologies: ["AWS Security Hub", "CloudTrail", "Python", "Terraform"],
-      impact: "Achieved 99.9% security compliance rating"
-      github: "https://github.com/alfaz404/portfolio"
-    }
-  ],
+  {
+    title: "Enterprise Network Penetration Testing",
+    description: "Conducted comprehensive penetration testing for a multinational corporation, identifying 15+ critical vulnerabilities and providing detailed remediation strategies.",
+    technologies: ["Metasploit", "Nmap", "Burp Suite", "Python"],
+    impact: "Prevented potential $2M+ in security breaches",
+    github: "https://github.com/alfaz404/enterprise-pen-test" // <-- Add this
+  },
+  {
+    title: "Web Application Security Assessment",
+    description: "Performed security testing on critical web applications, discovering SQL injection and XSS vulnerabilities affecting 50,000+ users.",
+    technologies: ["OWASP ZAP", "Burp Suite", "JavaScript", "SQL"],
+    impact: "Enhanced security for 50,000+ active users",
+    github: "https://github.com/alfaz404/webapp-security-assessment" // <-- Add this
+  },
+  {
+    title: "Red Team Simulation Exercise",
+    description: "Led a full-scale red team exercise simulating advanced persistent threats, testing organization's detection and response capabilities.",
+    technologies: ["Cobalt Strike", "PowerShell", "Kali Linux", "Social Engineering"],
+    impact: "Improved incident response time by 60%",
+    github: "https://github.com/alfaz404/red-team-simulation" // <-- Add this
+  },
+  {
+    title: "Cloud Security Architecture Review",
+    description: "Assessed cloud infrastructure security posture and implemented comprehensive security controls and monitoring solutions.",
+    technologies: ["AWS Security Hub", "CloudTrail", "Python", "Terraform"],
+    impact: "Achieved 99.9% security compliance rating",
+    github: "https://github.com/alfaz404/cloud-security-architecture" // <-- Add this
+  }
+],
   
   certifications: [
     {
