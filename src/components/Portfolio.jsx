@@ -290,27 +290,55 @@ const Portfolio = () => {
       </section>
 
       {/* Certifications Section */}
-      <section id="certifications" className="section">
-        <div className="section-content">
-          <div className="section-header">
-            <Award className="section-icon" />
-            <h2 className="section-title">Certifications</h2>
+<section id="certifications" className="section">
+  <div className="section-content">
+    <div className="section-header">
+      <Award className="section-icon" />
+      <h2 className="section-title">Certifications</h2>
+    </div>
+    <div className="certifications-grid">
+      {portfolioData.certifications.map((cert, index) => (
+        <div key={index} className="certification-card">
+          <div className="cert-icon">
+            <Award size={32} />
           </div>
-          <div className="certifications-grid">
-            {portfolioData.certifications.map((cert, index) => (
-              <div key={index} className="certification-card">
-                <div className="cert-icon">
-                  <Award size={32} />
-                </div>
-                <h3 className="cert-name">{cert.name}</h3>
-                <p className="cert-issuer">{cert.issuer}</p>
-                <p className="cert-year">{cert.year}</p>
-                <p className="cert-id">ID: {cert.credentialId}</p>
+          <h3 className="cert-name">{cert.name}</h3>
+          <p className="cert-issuer">{cert.issuer}</p>
+          <p className="cert-year">{cert.year}</p>
+          <p className="cert-id">ID: {cert.credentialId}</p>
+
+          {/* See More Button with Popup */}
+          <Dialog>
+            <DialogTrigger asChild>
+              <button className="see-more-btn mt-2 px-3 py-1 bg-blue-600 text-white text-sm rounded hover:bg-blue-700">
+                See More
+              </button>
+            </DialogTrigger>
+            <DialogContent className="max-w-md">
+              <DialogHeader>
+                <DialogTitle>{cert.name}</DialogTitle>
+              </DialogHeader>
+              <div className="flex flex-col items-center gap-4">
+                <img
+                  src={cert.image}
+                  alt={cert.name}
+                  className="w-64 h-auto rounded border"
+                />
+                <p className="text-sm text-gray-600">
+                  Issued by: {cert.issuer} ({cert.year})
+                </p>
+                <p className="text-xs text-gray-500">
+                  Credential ID: {cert.credentialId}
+                </p>
               </div>
-            ))}
-          </div>
+            </DialogContent>
+          </Dialog>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* Contact Section */}
       <section id="contact" className="section">
