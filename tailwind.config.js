@@ -55,8 +55,11 @@ module.exports = {
         },
 
         // 🔹 তোমার কাস্টম color
-        alfaz: "#00ffd1"
-      },
+        extend: {
+          colors: {
+            alfaz: "#00ffd1",   // তোমার custom color
+          }
+        },
       keyframes: {
         'accordion-down': {
           from: { height: '0' },
